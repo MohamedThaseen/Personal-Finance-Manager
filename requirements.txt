@@ -1,5 +1,5 @@
-# This project only uses the Python standard library (csv, os, shutil, datetime, dataclasses, statistics, collections, itertools).
+This project only uses the Python standard library (csv, os, shutil, datetime, dataclasses, statistics, collections, itertools).
 
 so there are no third-party dependencies to install.
 
-# Requires: Python 3.8+
+Requires: Python 3.8+
