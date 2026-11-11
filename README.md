@@ -154,6 +154,17 @@ if __name__ == "__main__":
    git branch -M main
    git push -u origin main
    ```
+# To Run the App
+import sys
+
+%cd personal_finance_manager
+
+#Drop cached copies so edits made in the cells above take effect on re-run
+
+for m in ["expense", "utils", "file_manager", "reports", "menu", "main"]:
+    sys.modules.pop(m, None)
+
+%run main.py
 
 ## License
 
